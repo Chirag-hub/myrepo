@@ -13,6 +13,7 @@ import { StudentComponent } from './student/student.component';
 import { TeacherComponent } from './teacher/teacher.component';
 import { SignupTeacherComponent } from './signup-teacher/signup-teacher.component';
 import { SignupStudentComponent } from './signup-student/signup-student.component';
+import { FacultyComponent } from './faculty/faculty.component';
 // import { HomeComponent } from './home/home.component';
 
 @NgModule({
@@ -28,6 +29,7 @@ import { SignupStudentComponent } from './signup-student/signup-student.componen
     TeacherComponent,
     SignupTeacherComponent,
     SignupStudentComponent,
+    FacultyComponent,
     // HomeComponent
   ],
   imports: [
