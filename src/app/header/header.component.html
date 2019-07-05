@@ -1,35 +1,36 @@
 <header id="header"> 
-    <div class="container">
-
-      <div id="logo" class="pull-left">
-        <a href="index.html"><img src="../../assets/img/logo-nav.png" alt="" title="" /></a>
-        
-        <h1><a href="#hero"></a></h1>
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#">Faculty</a></li>
-          <li class="menu-has-children"><a href="">Login</a>
-            <ul>
-              <li><a href="#">Teacher</a></li>
-              <li><a href="../student/student.component.html">Student</a></li>
+        <div class="container">
+    
+          <div id="logo" class="pull-left">
+            <a href="index.html"><img src="../../assets/img/logo-nav.png" alt="" title="" /></a>
+            
+            <h1><a href="#hero"></a></h1>
+          </div>
+          
+    
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+              <li><a class="nav-link" [routerLink]="['/about']">About Us</a></li>
+              <li><a href="#">Faculty</a></li>
+              <li class="menu-has-children"><a href="">Login</a>
+                <ul>
+                  <li><a class="nav-link" [routerLink]="['/teacher']">Teacher</a></li>
+                  <li><a class="nav-link" [routerLink]="['/student']">Student</a></li>
+                </ul>
+              </li>
+              <li class="menu-has-children"><a href="">Sign Up</a>
+                <ul>
+                  <li><a class="nav-link" [routerLink]="['/signup-teacher']">As Teacher</a></li>
+                  <li><a class="nav-link" [routerLink]="['/signup-student']">As Student</a></li>
+                </ul>
+              </li>
+              <li><a href="#contact">Contact Us</a></li>
             </ul>
-          </li>
-          <li class="menu-has-children"><a href="">Sign Up</a>
-            <ul>
-              <li><a href="#">Teacher</a></li>
-              <li><a href="#">Student</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-      </nav>
-      
-
-      <nav class="nav social-nav pull-right d-none d-lg-inline">
-        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-      </nav>
-    </div>
-  </header>
+          </nav>
+          
+    
+          <nav class="nav social-nav pull-right d-none d-lg-inline">
+            <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
+          </nav>
+        </div>
+      </header>
