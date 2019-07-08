@@ -15,6 +15,7 @@ import { SignupTeacherComponent } from './signup-teacher/signup-teacher.componen
 import { SignupStudentComponent } from './signup-student/signup-student.component';
 import { FacultyComponent } from './faculty/faculty.component';
 import { LoginAdminComponent } from './login-admin/login-admin.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 // import { HomeComponent } from './home/home.component';
 
 @NgModule({
@@ -32,6 +33,7 @@ import { LoginAdminComponent } from './login-admin/login-admin.component';
     SignupStudentComponent,
     FacultyComponent,
     LoginAdminComponent,
+    ContactUsComponent,
     // HomeComponent
   ],
   imports: [
