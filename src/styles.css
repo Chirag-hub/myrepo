@@ -124,7 +124,7 @@ a:hover {
 .hero {
   display: table;
   position: relative;
-  background-image: url(../src/assets/img/libcoverpge.jpg);
+  /* background-image: url(../src/assets/img/libcoverpge.jpg); */
   background-size: cover;
   padding: 150px 0;
   color: #fff;

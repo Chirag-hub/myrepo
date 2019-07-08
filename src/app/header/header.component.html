@@ -3,19 +3,20 @@
     
           <div id="logo" class="pull-left">
             <!-- <a href="index.html"><img src="../../assets/img/logo-nav.png" alt="" title="" /></a> -->
-           <h1 style="color: white">LIBRARY</h1> 
+           <h1 style="color: white; margin-left: -1.4cm">LIBRARY</h1> 
             <!-- <h1><a href="#hero"></a></h1> -->
           </div>
           
     
           <nav id="nav-menu-container">
-            <ul class="nav-menu">
-              <li><a class="nav-link" [routerLink]="['/about/']">About Us</a></li>
+            <ul style="margin-left: 8.5cm" class="nav-menu">
+              <li><a class="nav-link" [routerLink]="['/about']">About Us</a></li>
               <li><a class="nav-link" [routerLink]="['/faculty']">Faculty</a></li>
               <li class="menu-has-children"><a style="height: 1.6cm" href="#">Login</a>
                 <ul>
                   <li><a style="margin-top: -0.1cm" class="nav-link" [routerLink]="['/teacher']">Teacher</a></li>
                   <li><a class="nav-link" [routerLink]="['/student']">Student</a></li>
+                  <li><a class="nav-link" [routerLink]="['/login-admin']">Admin</a></li>
                 </ul>
               </li>
               <li class="menu-has-children"><a href="">Sign Up</a>

@@ -6,6 +6,7 @@ import { TeacherComponent } from './teacher/teacher.component';
 import { SignupStudentComponent } from './signup-student/signup-student.component';
 import { SignupTeacherComponent } from './signup-teacher/signup-teacher.component';
 import { FacultyComponent } from './faculty/faculty.component';
+import { LoginAdminComponent } from './login-admin/login-admin.component';
 
 const routes: Routes = [
   {path:'about',component:AboutComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path:'student',component:StudentComponent},
   {path:'signup-student',component:SignupStudentComponent},
   {path:'signup-teacher',component:SignupTeacherComponent},
-  {path:'faculty',component:FacultyComponent}
+  {path:'faculty',component:FacultyComponent},
+  {path:'login-admin',component:LoginAdminComponent}
 ];
 
 @NgModule({
