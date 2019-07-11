@@ -16,6 +16,8 @@ import { SignupStudentComponent } from './signup-student/signup-student.componen
 import { FacultyComponent } from './faculty/faculty.component';
 import { LoginAdminComponent } from './login-admin/login-admin.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { AdminComponent } from './admin/admin.component';
+import { FormsModule } from '@angular/forms';
 // import { HomeComponent } from './home/home.component';
 
 @NgModule({
@@ -34,11 +36,13 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     FacultyComponent,
     LoginAdminComponent,
     ContactUsComponent,
+    AdminComponent,
     // HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
