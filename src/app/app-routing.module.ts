@@ -9,7 +9,7 @@ import { FacultyComponent } from './faculty/faculty.component';
 import { LoginAdminComponent } from './login-admin/login-admin.component';
 
 const routes: Routes = [
-  {path:'about',component:AboutComponent},
+  {path:'',component:AboutComponent},
   {path:'teacher',component:TeacherComponent},
   {path:'student',component:StudentComponent},
   {path:'signup-student',component:SignupStudentComponent},
