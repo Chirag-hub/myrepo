@@ -1,0 +1,46 @@
+<!-- 
+<div class="col-lg-4">
+        <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Password</th>
+                <th scope="col">Email</th>
+                <th scope="col">City</th>
+                <th scope="col">Address</th>
+                <th scope="col">Update</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor=" let obj of arr">
+                <th scope="row">1</th>
+                <td>{{obj.name}}</td>
+                <td>{{obj.email}}</td>
+                <td>{{obj.password}}</td>
+                <td>{{obj.city}}</td>
+                <td>{{obj.address}}</td>
+                <td><button type="submit" [routerLink]="['/update',obj._id]">Update</button></td>
+                <td><button type="submit" (click)="delData(obj._id)">Delete</button></td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+ -->
+
+<div class="">
+ <div class="col-3" *ngFor="let obj of arr">
+  <div class="card" style="width: 18rem;">
+    <!-- <img class="card-img-top" src="{{obj.imageLink}}" alt="Card image cap"> -->
+    <div class="card-body">
+      <h5 class="card-title">{{obj.name}}</h5>
+      <p class="card-text">{{obj.city}}</p>
+      <p class="card-text">{{obj.password}}</p>
+      <a href="www.youtube.com" class="btn btn-primary">{{obj.address}}</a>
+      <button type="submit" [routerLink]="['/update',obj._id]">Update</button>
+      <button type="submit" (click)="delData(obj._id)">Delete</button>
+
+    </div>
+  </div>
+</div>
+</div>
