@@ -54,6 +54,7 @@ export class UsersService {
           name: name,
           city: city,
           password: password,
+
           address:address,
           email:email
         };

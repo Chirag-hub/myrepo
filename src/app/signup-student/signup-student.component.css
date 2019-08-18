@@ -1,14 +1,14 @@
-#wrap{
+/* #wrap{
     background-image: -ms-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
-    /* Mozilla Firefox */ 
+     
     background-image: -moz-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
-    /* Opera */ 
+     
     background-image: -o-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
-    /* Webkit (Safari/Chrome 10) */ 
+     
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #D3D8E8));
-    /* Webkit (Chrome 11+) */ 
+    
     background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
-    /* W3C Markup, IE10 Release Preview */ 
+    
     background-image: linear-gradient(to bottom, #FFFFFF 0%, #D3D8E8 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -64,4 +64,48 @@
             line-height: 29px;
             font-weight:bold;
         }
-    }
+    } */
+
+
+
+
+
+    @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+
+body {
+    background-image: url(../../assets/img/formbg.jpg);
+	font-family: 'Roboto', sans-serif;
+	color:#333;
+	line-height: 22px;	
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	color:#111;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+h1, h2, h3 {
+	text-transform:uppercase;
+}
+
+input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 1;
+    filter: alpha(opacity=1);    
+}
+
+.form-inline .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
+.control-label {
+    color:#333333;
+}

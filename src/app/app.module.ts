@@ -9,11 +9,12 @@ import { AboutComponent } from './about/about.component';
 import { StudentComponent } from './student/student.component';
 import { SignupStudentComponent } from './signup-student/signup-student.component';
 import { FacultyComponent } from './faculty/faculty.component';
-import { ContactUsComponent } from './contact-us/contact-us.component';
+
 
 import { FormsModule } from '@angular/forms';
 import { ViewComponent } from './view/view.component';
 import { UpdateComponent } from './update/update.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -25,13 +26,14 @@ import { UpdateComponent } from './update/update.component';
     
     AboutComponent,
     StudentComponent,
-    
+    ContactComponent,
     
     SignupStudentComponent,
     FacultyComponent,
-    ContactUsComponent,
+    
     ViewComponent,
     UpdateComponent,
+  
     
   ],
   imports: [

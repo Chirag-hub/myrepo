@@ -54,6 +54,7 @@ router.post('/update/:id',(req,res,next)=>{
         name : req.body.name,
         email : req.body.email,
         password : req.body.password,
+        cpassword : req.body.cpassword,
         city : req.body.city,
         address : req.body.address
     };

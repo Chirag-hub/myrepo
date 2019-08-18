@@ -11,6 +11,7 @@ export class SignupStudentComponent implements OnInit {
   name;
   email;
   password;
+  
   address;
   city;
   constructor(private us: UsersService) { }

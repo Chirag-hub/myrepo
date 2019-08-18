@@ -8,6 +8,9 @@ let user = new Schema({
     password: {
         type: String
     },
+    cpassword:{
+        type:String 
+    },
     city: {
         type: String
     },
