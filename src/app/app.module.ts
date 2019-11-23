@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { ViewComponent } from './view/view.component';
 import { UpdateComponent } from './update/update.component';
 import { ContactComponent } from './contact/contact.component';
+import { AdminComponent } from './admin/admin.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { ContactComponent } from './contact/contact.component';
     
     ViewComponent,
     UpdateComponent,
+    AdminComponent,
   
     
   ],

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UsersService } from '../users.service';
 
 @Component({
   selector: 'app-contact',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  arr;
+  
+ //name
+  constructor(private us:UsersService) { }
 
   ngOnInit() {
+    this.getData();
   }
+  getData(){
+     this.us.getData().subscribe(data=>{this.arr=data;});
+  }
+  delData(id){
+    this.us.delData(id);
+  }
+ 
 
 }
